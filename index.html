@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <title>Gods of Crystals</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.webp" alt="">
+            <p>ache os cristais em todas as zona qual você vai primeiro?</p>
+            <button class="btn-proximo" data-proximo="1">zona de terra</button>
+            <button class="btn-proximo" data-proximo="2">zona de agua</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>apos coletar o cristal da zona qual a próxima zona que você irá</p>
+            <button class="btn-proximo" data-proximo="3">Zona de fogo</button>
+            <button class="btn-proximo" data-proximo="2">Zona de ar</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo4-voltar-casa.webp" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>apos coletar o cristal da zona qual a próxima zona que você irá</p>
+            <button class="btn-proximo" data-proximo="3">Zona de magia</button>
+            <button class="btn-proximo" data-proximo="1">Zona de tecnologia</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>apos coletar o cristal da zona qual a próxima zona que você irá</p>
+            <button class="btn-proximo" data-proximo="4">Zona de escuridão</button>
+            <button class="btn-proximo" data-proximo="4">Zona de luz</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>apos coletar todos os cristais seu guia se mostra querer roubalos de você, o que fará</p>
+            <button class="btn-proximo" data-proximo="5">lutar</button>
+            <button class="btn-proximo" data-proximo="5">fugir</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>você fica preso em um loop temporal</p>
+            <button class="btn-proximo" data-proximo="5">aceita seu destino</button>
+            <button class="btn-proximo" data-proximo="0">faz tudo denovo</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
